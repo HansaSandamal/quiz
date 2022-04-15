@@ -31,14 +31,16 @@ align-items: center;
 }
 
 .score {
-  color: #fff;
+  color: #ffffff;
   font-size: 2rem;
   margin: 0;
+ 
 }
+
 
 h1 {
   font-family: Fascinate Inline;
-  background-image: linear-gradient(180deg, #fff, #87f1ff);
+  background-image: linear-gradient(180deg, #fff, #d50000);
   font-weight: 400;
   background-size: 100%;
   background-clip: text;
@@ -52,6 +54,18 @@ h1 {
   margin: 20px;
 }
 
+h4{
+  text-align: center;
+  color: #d50000;
+  font-family: Fascinate Inline;
+  font-size: 30px;
+  filter: drop-shadow(2px 2px #0085a3);
+}
+mark{
+  background-color:#0080c0;
+  color: #ffffff;
+ }
+
 .start, .next {
   cursor: pointer;
   background: linear-gradient(180deg, #ffffff, #ffcc91);
@@ -61,6 +75,7 @@ h1 {
   height: 40px;
   margin: 20px 0;
   padding: 0 40px;
+  color: #272727;
 }
 
 .start {

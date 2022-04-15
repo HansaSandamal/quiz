@@ -78,13 +78,14 @@ const App=()=> {
     <>
     <GlobalStyle/>
     <Wrapper>
-    <h1>Quiz</h1>
+    <h1>ANIME Quiz</h1>
+    <h4><mark>Test your anime Knowledge....!!!</mark></h4>
     {gameOver||userAnswers.length===TOTAL_QUESTION ? (
       <button className='start' onClick={startQuiz}>Start</button>
     ):null}
     
-    {!gameOver?<p className='score'>Score:{score}</p>:null}
-    {loading && <p>Loading Questions.....</p>}
+    {!gameOver?<p className='score'><mark>Score:{score}</mark></p>:null}
+    {loading && <p><mark>Loading Your Quest.....</mark></p>}
     {!loading && !gameOver &&(
     <QuestionCard
       questionNumber={questionNo+1}
